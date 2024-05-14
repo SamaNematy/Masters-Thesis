@@ -1,4 +1,4 @@
-%% shading correction using pixel based algorithm according to:
+%% shading correction using pixel-based algorithm according to:
     % Tak, Yoon-Oh, et al. "Simple shading correction method for brightfield
     % whole slide imaging." Sensors 20.11 (2020): 3084.
 
