@@ -1,5 +1,9 @@
 # Development of seamless algorithm and robust to vignetting artifact in histological images obtained from whole slide imaging technique
 Whole-slide imaging is a technique that generates high-resolution digital images by integrating a sequence of microscopic images. However, shading distortion or vignetting—caused by non-uniform illumination—can create artifacts like black checkered patterns in the final image, reducing visual quality and causing errors in quantitative analyses.
+Figure 1 below illustrates these artifacts, showing how uneven illumination in stitched images leads to undesirable shading patterns:
+
+![ShadingEffect_in_StitchedResults](https://github.com/user-attachments/assets/5f83f2fd-7f49-410c-9862-db365a7cc38d)
+
 
 Traditional methods to correct these issues are either time-consuming or ineffective. To address this, my research focuses on using deep neural networks, specifically a type of Generative Adversarial Network (GAN) known as pix2pix, to correct non-uniform brightness in microscopic images. The proposed method allows for the quick, independent correction of each image without the need for a reference image, producing clearer results than previous approaches.
 
