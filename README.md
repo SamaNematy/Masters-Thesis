@@ -8,4 +8,4 @@ Figure 1 below illustrates these artifacts, showing how uneven illumination in s
 Traditional methods to correct these issues are either time-consuming or ineffective. To address this, my research focuses on using deep neural networks, specifically a type of Generative Adversarial Network (GAN) known as pix2pix, to correct non-uniform brightness in microscopic images. The proposed method allows for the quick, independent correction of each image without the need for a reference image, producing clearer results than previous approaches.
 
 ![Methods](https://github.com/user-attachments/assets/94df79d2-cb3e-40a8-99bc-776d0cfe03bb)
-Figure 1: Overview of methods used for shading correction in whole-slide images.
+Figure 2: Overview of methods used for shading correction in whole-slide images.
